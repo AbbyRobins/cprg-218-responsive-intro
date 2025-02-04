@@ -30,7 +30,7 @@ main {
 
 footer {
     grid-area: footer;
-    background-color: green;
+    background-color: #57b757;
     color: white;
 }
 
@@ -41,6 +41,16 @@ footer {
             "main"
             "nav"
             "footer";
+        grid-template-columns: 1fr;
+        /*display: block;*/
     }
-    /*display: block;*/
+    #desktop {
+        display: none;
+    }
+}
+
+#desktop {
+    background-color: #57b757;
+    color: white;
+    padding: 1.4rem;
 }
