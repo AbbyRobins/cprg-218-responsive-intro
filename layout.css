@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav main"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto; /*auto: take up whatever is left and split it up*/
+}
+
+header {
+    grid-area: header; /*this should go into this area; takes up the entire area for header*/
+    background-color: #57b757;
+    color: white;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #d7e0d7;
+    color: #000000;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+        grid-template-areas:
+            "header"
+            "main"
+            "nav"
+            "footer";
+    }
+    /*display: block;*/
+}
