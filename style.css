@@ -12,7 +12,6 @@ body {
     body {
         background-color: #c9b1df;
         color: #342d52;
-        font-size: 130%;
     }
 }
 
@@ -21,5 +20,6 @@ body {
     body {
         background-color: #53282f;
         color: #ffc0cb;
+        font-size: 130%;
     }   
 }
