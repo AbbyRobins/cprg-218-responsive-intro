@@ -19,14 +19,7 @@ body {
 @media screen and (max-width: 400px) {
     /* you can add more than one "and," like max-width and landscape */
     body {
-        background-color: #1c182b;
-        color: #c9b1df;
-    }   
-}
-
-@media screen and (max-width: 400px) and (orientation: landscape) {
-    body {
         background-color: #53282f;
         color: #ffc0cb;
-    }
+    }   
 }
