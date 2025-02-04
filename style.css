@@ -22,3 +22,10 @@ body {
         color: #c9b1df;
     }   
 }
+
+@media screen and (orientation: landscape) {
+    body {
+        background-color: #53282f;
+        color: #ffc0cb;
+    }
+}
