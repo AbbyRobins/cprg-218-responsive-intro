@@ -23,7 +23,7 @@ body {
     }   
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 400px) and (orientation: landscape) {
     body {
         background-color: #53282f;
         color: #ffc0cb;
